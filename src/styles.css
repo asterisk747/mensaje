@@ -1,0 +1,74 @@
+span {
+  display: inline-block;
+  font-size: 32px;
+  padding: 8px;
+  box-shadow: 1px 1px 2px #100b1d;
+}
+
+.green {
+  background-color: #089295;
+  color: #f7fcf1;
+}
+
+.yellow {
+  background-color: #d3e004;
+  color: #c43713;
+}
+
+.gray {
+  background-color: #e4e4e5;
+  color: #100b1d;
+  background-image: url("img/papel.png");
+}
+
+.parallelogram {
+  transform: skew(6deg);
+}
+
+.inverrseParallelogram {
+  transform: skew(-2deg);
+}
+
+.ultraSmall {
+  font-size: 18px;
+}
+
+.small {
+  font-size: 22px;
+}
+
+.medium {
+  font-size: 26px;
+}
+
+.square {
+  width: 46px;
+  height: 46px;
+  text-align: center;
+}
+
+.smallSquare {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.smallPadding {
+  font-size: 22px;
+  padding: 14px;
+}
+
+.hind-guntur-regular {
+  font-size: 28px;
+  font-family: "Hind Guntur", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-mono-regular {
+  font-size: 28px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
